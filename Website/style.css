@@ -1,0 +1,16 @@
+body{
+    background-color: rgba(232, 249, 255, 0.795);
+}
+
+#header{
+    text-align: center;
+    font-size: 120px;
+    color: rgb(104, 164, 168);
+    margin-bottom: 120px;
+}
+
+#elevatorpitch{
+    text-align: center;
+    margin-left: 120px;
+    margin-right: 120px;
+}
