@@ -163,9 +163,9 @@ body {
 
 /*********** About Me Section End **********/
 
-/******** My Portfolio Section Start *******/
+/******** My photos Section Start *******/
 
-#portfolio {
+#photos {
     background-image: linear-gradient( to left bottom, rgba(54, 10, 136, 0.8), rgba(139, 0, 0, 0.8)), url(https://images.unsplash.com/photo-1497892597262-2983614aa886?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2051e3b8338218a0f163b9a6ab48bb84&auto=format&fit=crop&w=1350&q=80);
     background-size: cover;
     background-position: top;
@@ -184,7 +184,7 @@ body {
 }
 
 
-/********* My Portfolio Section End ********/
+/********* My photos Section End ********/
 
 /********* Footer Section Start ************/
 
