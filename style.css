@@ -15,7 +15,7 @@ body {
 /*********** Navbar Section Start ***********/
 
 .navbar-inverse {
-    background-image: linear-gradient( to right top, rgba(119, 21, 116, 0.8), rgba(139, 81, 34, 0.8));
+    background-image: linear-gradient( to right top, rgba(21, 119, 119, 0.8), rgba(70, 40, 182, 0.8));
 }
 
 .navbar-inverse .navbar-nav>li>a {
@@ -41,7 +41,7 @@ body {
 
 .header {
     height: 95vh;
-    background-image: linear-gradient( to right bottom, rgba(63, 10, 161, 0.8), rgba(139, 0, 0, 0.8)), url(https://images.unsplash.com/photo-1499615767948-e6a89ef6060f?auto=format&fit=crop&w=1050&q=80);
+    background-image: linear-gradient( to right bottom, rgba(70, 40, 182, 0.8), rgba(21, 119, 119, 0.8)), url(https://images.unsplash.com/photo-1499615767948-e6a89ef6060f?auto=format&fit=crop&w=1050&q=80);
     background-size: cover;
     background-position: top;
     position: relative;
@@ -129,7 +129,7 @@ body {
     padding-top: 40px;
     padding-bottom: 40px;
     color: #5a5a5a;
-    background-image: linear-gradient( to left top, rgba(63, 10, 161, 0.8), rgba(139, 0, 0, 0.8)), url(https://images.unsplash.com/photo-1467703834117-04386e3dadd8?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2de85761d45711c4109ba4f215b6e21e&auto=format&fit=crop&w=1350&q=80);
+    background-image: linear-gradient( to left top, rgba(21, 119, 119, 0.8), rgba(70, 40, 182, 0.8)), url(https://images.unsplash.com/photo-1467703834117-04386e3dadd8?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2de85761d45711c4109ba4f215b6e21e&auto=format&fit=crop&w=1350&q=80);
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -166,7 +166,7 @@ body {
 /******** My photos Section Start *******/
 
 #photos {
-    background-image: linear-gradient( to left bottom, rgba(54, 10, 136, 0.8), rgba(139, 0, 0, 0.8)), url(https://images.unsplash.com/photo-1497892597262-2983614aa886?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2051e3b8338218a0f163b9a6ab48bb84&auto=format&fit=crop&w=1350&q=80);
+    background-image: linear-gradient( to left bottom, rgba(21, 119, 119, 0.8), rgba(139, 0, 0, 0.8)), url(https://images.unsplash.com/photo-1497892597262-2983614aa886?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2051e3b8338218a0f163b9a6ab48bb84&auto=format&fit=crop&w=1350&q=80);
     background-size: cover;
     background-position: top;
     color: #fff;
@@ -183,13 +183,16 @@ body {
     transform: scale(1.1);
 }
 
+.col-offset{
+    offset: 33.3%;
+}
 
 /********* My photos Section End ********/
 
 /********* Footer Section Start ************/
 
 footer #footer-above {
-    background-image: linear-gradient( to left top, rgba(63, 10, 161, 0.8), rgba(139, 0, 0, 0.8)), url(https://images.unsplash.com/photo-1495277493816-4c359911b7f1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=cea505d70dc1770c4dd470ff9715ac36&auto=format&fit=crop&w=1346&q=80);
+    background-image: linear-gradient( to left top, rgba(21, 119, 119, 0.8), rgba(139, 0, 0, 0.8)), url(https://images.unsplash.com/photo-1495277493816-4c359911b7f1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=cea505d70dc1770c4dd470ff9715ac36&auto=format&fit=crop&w=1346&q=80);
     background-size: cover;
     background-position: center;
     color: #fff;
