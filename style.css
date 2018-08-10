@@ -15,7 +15,7 @@ body {
 /*********** Navbar Section Start ***********/
 
 .navbar-inverse {
-    background-image: linear-gradient( to right top, rgba(21, 119, 119, 0.8), rgba(70, 40, 182, 0.8));
+    background: rgba(0, 0, 0, 0.7);
 }
 
 .navbar-inverse .navbar-nav>li>a {
@@ -30,7 +30,7 @@ body {
 }
 
 .navbar-inverse ul li:hover {
-    background: rgba(57, 36, 194, 0.8);
+    background: rgba(163, 163, 163, 0.6);
     color: white;
 }
 
@@ -139,6 +139,10 @@ body {
     font-weight: 300;
     line-height: 1;
     letter-spacing: -1px;
+}
+
+.text-muted {
+    color: rgb(128, 128, 128);
 }
 
 @media (min-width: 768px) {
