@@ -22,13 +22,16 @@
 }
 
 .secondary {
-  padding-top: 4em;
   background-color: #FCF0DD;
 
   .sub-header {
     font-weight: 700;
     font-size: 24px;
   }
+}
+
+.mt-12em {
+  margin-top: 12em;
 }
 
 @media screen and(max-width: 800px) {
