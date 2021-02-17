@@ -1,3 +1,33 @@
-.main > .container > p {
-  font-size: 1.5em;
+.main {
+  background-color: transparent;
+  height: 100vh;
+  padding-top: 8em;
+  .container {
+    text-align: center;
+    color: #292433;
+    h1 {
+      font-weight: 700;
+    }
+    p {
+      font-size: 2em;
+      font-weight: 400;
+    }
+  }
+  
+  svg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: auto;
+  }
+}
+
+.secondary {
+  margin-top: 19em;
+  padding-top: 3em;
+  background-color: #292433;
+  color: #FCF0DD;
 }
