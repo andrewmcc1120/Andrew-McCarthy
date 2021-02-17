@@ -11,7 +11,7 @@ export class LandingPageComponent implements OnInit {
 
   ngOnInit(): void {
     const checkpoint = 300;
-    const maxMargin = 300;
+    const maxMargin = 330;
     let opacity = 1;
     let marginTop = 0;
     let prevVerticalPos = 0;
