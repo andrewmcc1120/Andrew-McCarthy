@@ -1,17 +1,20 @@
 .main {
-  background: #FCF0DD url("../../../assets/img/untitled.svg") no-repeat;
+  background: #FCF0DD url("../../../assets/img/lake_mountain.svg") no-repeat;
   background-position: center;
   background-size: 100%;
   height: 105vh;
   overflow: visible;
+
   .container {
     text-align: center;
-    color: #292433;
+    color: rgba($color: #292433, $alpha: 1.0);
     height: 100%;
     padding-top: 12em;
+
     h1 {
       font-weight: 700;
     }
+
     p {
       font-size: 2em;
       font-weight: 400;
@@ -28,7 +31,7 @@
 @media screen and(max-width: 800px) {
   .main {
     height: 95vh;
-    background: #FCF0DD url("../../../assets/img/untitled.svg") no-repeat;
+    background: #FCF0DD url("../../../assets/img/lake_mountain.svg") no-repeat;
     background-position: center bottom;
     background-size: 130%;
   }
