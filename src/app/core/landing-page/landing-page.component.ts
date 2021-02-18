@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-landing-page',
+  selector: 'landing-page',
   templateUrl: './landing-page.component.html',
   styleUrls: ['./landing-page.component.scss']
 })
@@ -12,8 +12,8 @@ export class LandingPageComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    const checkpoint = 300;
-    const maxMargin = 330;
+    const checkpoint = 400;
+    const maxMargin = 300;
     let opacity = 1;
     let marginTop = 0;
     let prevVerticalPos = 0;
@@ -25,9 +25,9 @@ export class LandingPageComponent implements OnInit {
         opacity = 0;
       }
       if (verticalPos >= prevVerticalPos && marginTop > -1) {
-        marginTop = marginTop < maxMargin ? verticalPos : maxMargin;
+        marginTop = marginTop < maxMargin ? verticalPos * .5 : maxMargin;
       } else {
-        marginTop = verticalPos > 0 ? verticalPos : 0;
+        marginTop = verticalPos > 0 ? verticalPos * .5 : 0;
       }
       prevVerticalPos = verticalPos;
       document.getElementById('scroll-text-effect').style.opacity = opacity.toString();
