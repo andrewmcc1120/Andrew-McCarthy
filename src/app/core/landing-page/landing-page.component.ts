@@ -7,7 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LandingPageComponent implements OnInit {
 
-  techElevatorUrl = 'https://www.techelevator.com/';
+  readonly techElevatorUrl = 'https://www.techelevator.com/';
+  readonly transendUrl = 'https://transend.us/';
 
   constructor() { }
 

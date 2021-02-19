@@ -1,3 +1,5 @@
+@import '../../../styles_variables.scss';
+
 .bg-custom {
-  background-color: rgba($color: #fcf0dd, $alpha: .95);
+  background-color: rgba($color: $main-color-light, $alpha: .95);
 }
