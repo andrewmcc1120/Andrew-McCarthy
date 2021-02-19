@@ -3,13 +3,13 @@
 
 * {
   font-family: $main-font-family;
+  scroll-behavior: smooth;
 }
 
 body {
   margin: 0;
   color: $main-color-dark;
   font-size: 16px;
-  scroll-behavior: smooth;
 }
 
 .box-shadow {
