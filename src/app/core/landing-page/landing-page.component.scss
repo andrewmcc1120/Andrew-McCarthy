@@ -32,19 +32,6 @@
   }
 }
 
-.mt-5em {
-  margin-top: 5em;
-}
-
-.img-fluid-cust {
-  max-width: 55%;
-  height: auto;
-}
-
-.circle {
-  border-radius: 50%;
-}
-
 @media screen and(max-width: $tablet-breakpoint) {
   .main {
     height: 95vh;
@@ -63,6 +50,12 @@
 }
 
 @media screen and(max-width: $mobile-breakpoint) {
+  .main {
+    .container {
+      text-align: center;
+    }
+  }
+
   .img-fluid-cust {
     max-width: 50%;
     height: auto;

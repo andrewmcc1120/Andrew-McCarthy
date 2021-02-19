@@ -12,6 +12,19 @@ body {
   font-size: 16px;
 }
 
+.mt-5em {
+  margin-top: 5em;
+}
+
+.img-fluid-cust {
+  max-width: 55%;
+  height: auto;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
 .box-shadow {
   box-shadow: 4px 4px 20px 4px rgba($color: $main-color-dark, $alpha: .4);
 }
