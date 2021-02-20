@@ -1,12 +1,12 @@
 <form [formGroup]="contactFormGroup" (ngSubmit)="sendEmail(this.contactFormGroup.value)">
   <div class="form-group">
     <div class="row">
-      <div class="col">
+      <div class="col-lg-6">
         <label>name</label>
         <input class="form-control" formControlName="name" [class.is-invalid]="isControlInvalid(this.nameControl)">
         <span class="invalid-feedback">name is required</span>
       </div>
-      <div class="col">
+      <div class="col-lg-6">
         <label>email address</label>
         <input class="form-control" formControlName="emailAddress"
           [class.is-invalid]="isControlInvalid(this.emailAddressControl)">

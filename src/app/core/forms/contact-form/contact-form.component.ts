@@ -36,7 +36,6 @@ export class ContactFormComponent implements OnInit {
 
   sendEmail(contactFormValue: IContactFormValue): void {
     const postEmailObject = this.mapPostEmailObject(contactFormValue);
-    console.log(postEmailObject);
     this.emailService.postEmail(postEmailObject).subscribe(
       response => {
         location.href = 'https://mailthis.to/confirm';
