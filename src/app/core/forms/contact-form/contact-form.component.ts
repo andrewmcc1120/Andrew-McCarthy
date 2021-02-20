@@ -38,11 +38,11 @@ export class ContactFormComponent implements OnInit {
     const postEmailObject = this.mapPostEmailObject(contactFormValue);
     console.log(postEmailObject);
     this.emailService.postEmail(postEmailObject).subscribe(
-      success => {
-        console.log(success);
-      },
-      error => {
-        console.log(error);
+      response => {
+        location.href = 'https://mailthis.to/confirm';
+        this.contactFormGroup.reset();
+      }, error => {
+        console.warn(error.responseText);
       });
   }
 
