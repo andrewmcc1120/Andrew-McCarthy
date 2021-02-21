@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 
 import { EmailService } from '../../services';
-import { IContactFormValue, IPostEmailRequest } from '../../interfaces';
+import { IContactFormValue, IPostEmailRequest } from '../../models';
 
 @Component({
   selector: 'contact-form',
