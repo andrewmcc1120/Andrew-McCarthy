@@ -3,6 +3,11 @@ import { RouterModule, Routes } from '@angular/router';
 import { LandingPageComponent } from './core';
 
 const routes: Routes = [
+  {
+    path: 'blog',
+    loadChildren: () => import('./blog/blog.module').then(m => m.BlogModule)
+  },
+  { path: '', component: LandingPageComponent, pathMatch: 'full' },
   { path: '**', component: LandingPageComponent, pathMatch: 'full' }
 ];
 
