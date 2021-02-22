@@ -1,6 +1,13 @@
+import { Component } from '@angular/core';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { LandingPageComponent } from './landing-page.component';
+
+@Component({
+  selector: 'contact-form',
+  template: ''
+})
+class ContactFormComponent { }
 
 describe('LandingPageComponent', () => {
   let component: LandingPageComponent;
@@ -8,9 +15,12 @@ describe('LandingPageComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ LandingPageComponent ]
+      declarations: [
+        ContactFormComponent,
+        LandingPageComponent
+      ]
     })
-    .compileComponents();
+      .compileComponents();
   });
 
   beforeEach(() => {
