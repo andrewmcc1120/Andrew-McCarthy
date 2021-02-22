@@ -32,6 +32,17 @@
   }
 }
 
+::ng-deep .btn-primary {
+  background-color: $tertiary-color-light !important;
+  border: none;
+  color: $main-color-dark !important;
+}
+
+::ng-deep button.btn:not(:disabled):not(.disabled).btn-primary:hover {
+  background-color: $tertiary-color-dark !important;
+  color: $main-color-light !important;
+}
+
 @media screen and(max-width: $tablet-breakpoint) {
   .main {
     height: 95vh;
