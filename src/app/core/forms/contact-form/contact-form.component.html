@@ -1,0 +1,33 @@
+<form [formGroup]="contactFormGroup" (ngSubmit)="sendEmail(this.contactFormGroup.value)">
+  <div class="form-group">
+    <div class="row">
+      <div class="col-lg-6">
+        <label>name</label>
+        <input class="form-control" formControlName="name" [class.is-invalid]="isControlInvalid(this.nameControl)">
+        <span class="invalid-feedback">name is required</span>
+      </div>
+      <div class="col-lg-6">
+        <label>email address</label>
+        <input class="form-control" formControlName="emailAddress"
+          [class.is-invalid]="isControlInvalid(this.emailAddressControl)">
+        <span class="invalid-feedback">email is required</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <label>message</label>
+        <textarea class="form-control" formControlName="message" rows="8"
+          [class.is-invalid]="isControlInvalid(this.messageControl)"></textarea>
+          <span class="invalid-feedback">message is required</span>
+      </div>
+    </div>
+  </div>
+  <input type="hidden" formControlName="honeyPot">
+  <input type="hidden" formControlName="subject">
+  <div class="row">
+    <div class="col">
+      <button class="btn btn-primary float-right" type="submit" [disabled]="formIsInvalid()">
+        <i class="far fa-paper-plane pr-2"></i>SEND IT!</button>
+    </div>
+  </div>
+</form>

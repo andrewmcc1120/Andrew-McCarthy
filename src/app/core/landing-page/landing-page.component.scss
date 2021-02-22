@@ -1,0 +1,74 @@
+@import '../../../styles_variables.scss';
+
+.main {
+  background: $main-color-light url("../../../assets/img/lake_mountain.svg") no-repeat;
+  background-position: center;
+  background-size: 100%;
+  height: 105vh;
+  overflow: visible;
+
+  .container {
+    height: 100%;
+    padding-top: 12em;
+
+    h1 {
+      font-weight: 400;
+    }
+
+    p {
+      font-size: 1.5em;
+      font-weight: 200;
+      
+    }
+  }
+}
+
+.secondary {
+  background-color: $main-color-light;
+
+  .sub-header {
+    font-weight: 700;
+    font-size: 24px;
+  }
+}
+
+::ng-deep .btn-primary {
+  background-color: $tertiary-color-light !important;
+  border: none;
+  color: $main-color-dark !important;
+}
+
+::ng-deep button.btn:not(:disabled):not(.disabled).btn-primary:hover {
+  background-color: $tertiary-color-dark !important;
+  color: $main-color-light !important;
+}
+
+@media screen and(max-width: $tablet-breakpoint) {
+  .main {
+    height: 95vh;
+    background-position: bottom;
+    background-size: 130%;
+
+    .container {
+      padding-top: 6em;
+    }
+  }
+
+  .img-fluid-cust {
+    max-width: 60%;
+    height: auto;
+  }
+}
+
+@media screen and(max-width: $mobile-breakpoint) {
+  .main {
+    .container {
+      text-align: center;
+    }
+  }
+
+  .img-fluid-cust {
+    max-width: 75%;
+    height: auto;
+  }
+}

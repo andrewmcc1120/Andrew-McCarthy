@@ -1,0 +1,41 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import './styles_variables.scss';
+
+* {
+  font-family: $main-font-family;
+  scroll-behavior: smooth;
+  line-height: 1.2em;
+}
+
+body {
+  margin: 0;
+  color: $main-color-dark;
+  font-size: 16px;
+  cursor: default;
+}
+
+a {
+  color: $tertiary-color-light;
+}
+
+a:hover {
+  color: $tertiary-color-dark;
+  text-decoration: none !important;
+}
+
+.mt-5em {
+  margin-top: 5em;
+}
+
+.img-fluid-cust {
+  max-width: 40%;
+  height: auto;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.box-shadow {
+  box-shadow: 4px 4px 20px 4px rgba($color: $main-color-dark, $alpha: .4);
+}
