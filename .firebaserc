@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "amcdev": {
+      "hosting": {
+        "andrewmcc1120-github-io": [
+          "amcdev"
+        ]
+      }
+    }
+  }
+}
