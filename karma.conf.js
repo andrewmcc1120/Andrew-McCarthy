@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/andrewmcc1120-github-io'),
+      dir: require('path').join(__dirname, './coverage/amcdev'),
       subdir: '.',
       reporters: [
         { type: 'html' },
